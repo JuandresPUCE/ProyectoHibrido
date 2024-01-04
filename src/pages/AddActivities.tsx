@@ -17,6 +17,7 @@ import {
     IonCardContent,
     IonItem,
     IonAlert,
+    IonMenuButton,
   } from "@ionic/react";
 
 const AllActivities: React.FC = () => {
@@ -24,6 +25,9 @@ const AllActivities: React.FC = () => {
         <IonPage>
             <IonHeader>
                 <IonToolbar>
+                <IonButtons slot="start">
+						<IonMenuButton/>
+					</IonButtons>
                     <IonTitle>Nueva Actividad</IonTitle>
                 </IonToolbar>
             </IonHeader>
